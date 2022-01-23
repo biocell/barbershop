@@ -8,8 +8,8 @@ const Layout = ({children}) => {
         <>
        <Nav/>
             <div className={styles.container}>
-            <main className={styles.main}>
-                <h1>heloooo</h1>
+                <main className={styles.main}>
+                    
                  {children}
             </main>
 

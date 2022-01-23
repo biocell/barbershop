@@ -1,8 +1,11 @@
-import Link from 'next/link'
+
 const about = () => {
     return (
         <div>
+            <p className='test'>hahahah</p>
             
+            
+           
     </div>
 )
 }

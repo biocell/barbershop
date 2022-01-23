@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+.landingImage{
+  height:400px;
+}
+.team{
+  background-image: url("../public/images/home.png");   
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  display: flex;
+  height: 700px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.team h1{
+  color: #ffffff;
+  font-size: 5rem;
+  padding-top: 100px;
+}
+.offer{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.offer-img{
+  background-color: black;
+  height:400px;
+}
