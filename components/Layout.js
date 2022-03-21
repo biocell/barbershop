@@ -1,4 +1,4 @@
-import Nav from './Nav'
+import Navbar from './Navbar'
 import styles from '../styles/Layout.module.css'
 
 
@@ -6,14 +6,13 @@ import styles from '../styles/Layout.module.css'
 const Layout = ({children}) => {
     return (
         <>
-       <Nav/>
+       <Navbar/>
             <div className={styles.container}>
                 <main className={styles.main}>
-                    
-                 {children}
-            </main>
+                    {children}
+                </main>
 
-        </div>
+            </div>
     </>
     )
         }
